@@ -1,0 +1,43 @@
+.card {
+    height: 150px;
+    width: 250px;
+    margin: 10px;
+}
+
+.yellow {
+    background-color: #fffed6;
+    border: 2px solid #fffc3d;
+    color: #fffc3d;
+}
+
+.red {
+    background-color: #fddddd;
+    border: 2px solid #f73636;
+    color: #f73636;
+}
+
+.green {
+    background-color: #d6fde0;
+    border: 2px solid #00c531;
+    color: #00c531;
+}
+
+.cardName {
+    margin-left: 5px;
+    color: rgb(59, 59, 59);
+    font-weight: 100;
+}
+
+.count {
+    color: rgb(59, 59, 59);
+    margin-left: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.todayCount {
+    color: rgb(97, 96, 96);
+    margin-left: 5px;
+    font-size: 20px;
+    font-weight: 100;
+}
