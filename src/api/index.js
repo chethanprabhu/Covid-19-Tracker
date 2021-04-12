@@ -8,8 +8,9 @@ const api = axios.create({
 
 export const getWorldData = async () => {
  try {
-    const {data: {cases, active, deaths}} = await api.get("v3/covid-19/all");
-    return {cases, active, deaths};
+    const {data: {cases, active, deaths, updated}} = await api.get("v3/covid-19/all");
+    const lastUpdated = new Date(updated).toString().substr(4, 20);
+    return {cases, active, deaths, lastUpdated};
  }
  catch(err) {
     console.log(err);

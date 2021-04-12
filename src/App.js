@@ -10,7 +10,6 @@ class App extends React.Component {
 
     async componentDidMount()  {
         const data = await getWorldData();
-        console.log(data);
     }
 
     render() {
